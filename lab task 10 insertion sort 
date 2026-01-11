@@ -16,7 +16,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Insertion Sort Logic
+    // Insertion Sort 
     for(i = 1; i < n; i++)
     {
         key = arr[i];      // store current element
@@ -27,7 +27,7 @@ int main()
             arr[j + 1] = arr[j];  // shift element to right
             j--;
         }
-        arr[j + 1] = key;   // insert key in correct position
+        arr[j + 1] = key; 
     }
 
     cout << "Sorted Array:\n";
